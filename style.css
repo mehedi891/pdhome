@@ -433,3 +433,121 @@ div.activeAc{
     max-width: 100%;
     height: auto;
 }
+
+/* free trail */
+.startTrialIbDiv{
+    background: #3D3D45;
+    padding: 60px 0;
+}
+.startTrialIb{
+    margin-top: 60px;
+}
+.startTrialFlexDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.startTrialFlexDiv *{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.startTrialFlexDiv h2{
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 90px;
+}
+
+.startTrialFlexDivLarge{
+    color: #fff;
+}
+.startTrialFlexDivLargeYellow{
+    color: #fbdf5b;
+    margin: 15px 0;
+}
+.startTrialFlexDivLP{
+    color: #fff;
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 30px;
+    margin: 40px auto 20px auto;
+    max-width: 920px;
+    line-height: 38px;
+}
+.startTrialFlexDivLPYellow{
+    color: #fbdf5b;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+.startTrialFlexDiv button{
+    border: none;
+    background: #00bcd4;
+    color: #fff;
+    padding: 20px 40px;
+    border-radius: 40px;
+}
+
+/* faq */
+.faqIB{
+    margin-top: 70px;
+    padding-bottom: 40px;
+}
+.faqIbFlex{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.faqIbFlex-top h2{
+    font-size: 50px;
+    color: #3c3950;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.faqIbFlex-topPFirst{
+ text-transform: uppercase;
+}
+.faqIbFlex-topPSec,
+.faqIbFlex-topPFirst{
+    line-height: 25px;
+    font-size: 16px;
+}
+.faqIbFlex-topPSec{
+    font-weight: 600;
+}
+.faqIbFlex-topPSec a{
+    text-decoration: none;
+    color: #2fc5b0;
+}
+.faqIbFlexlistCmn-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.faqIbFlexlistCmn-title span{
+    font-size: 25px;
+    font-weight: 600;
+}
+.faqIbFlexlistCmn{
+    border-top: 1px dotted #ccc;
+    border-bottom: 1px dotted #ccc;
+    padding: 15px 0px;
+    cursor: pointer;
+}
+.faqIbFlexlistCmn .faqIbFlex-topPSec,
+.activeFaqIb .faqActiveP,
+.faqIbFlexlistCmn .faqActiveM{
+    display: none;
+}
+.activeFaqIb .faqIbFlex-topPSec,
+.activeFaqIb .faqActiveM{
+    display: block !important;
+}
+.activeFaqIb .faqIbFlexlistCmn-title{
+    margin-bottom: 20px;
+}
